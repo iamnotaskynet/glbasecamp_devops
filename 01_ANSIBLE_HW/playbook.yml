@@ -1,10 +1,7 @@
 ---
 - name: invoke the role for /etc/iaac for hosts group iaas
-  hosts: all
+  hosts: iaas
   become: yes
-  
-  # vars:
-    # ansible_sudo_pass: glbasecamp
 
   roles:
     - {role: 01_iaac, when: ansible_system == 'Linux'}
@@ -12,9 +9,6 @@
 - name: invoke the role for defining variable for all hosts
   hosts: all
   become: yes
-
-  # vars:
-  #   ansible_sudo_pass: glbasecamp
 
   roles:
     - {role: 02_issue, when: ansible_system == 'Linux'}
