@@ -3,10 +3,6 @@
   shell: cat /etc/issue
   register: etc_issue
 
-- name: define hostname as variable  
-  shell: hostname
-  register: hostname
-
 - name: printing hostnames together with registered variables will be a plus.
   debug: 
-    msg: "HOSTNAME: {{ hostname.stdout }} ISSUE: {{ etc_issue.stdout }}" 
+    msg: "HOSTNAME: {{ ansible_hostname }} ISSUE: {{ etc_issue.stdout }}" 

@@ -2,14 +2,12 @@
 - name: invoke the role for /etc/iaac for hosts group iaas
   hosts: iaas
   become: yes
-
   roles:
     - {role: 01_iaac, when: ansible_system == 'Linux'}
 
 - name: invoke the role for defining variable for all hosts
   hosts: all
   become: yes
-
   roles:
     - {role: 02_issue, when: ansible_system == 'Linux'}
 
