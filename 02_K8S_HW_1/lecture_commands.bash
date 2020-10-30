@@ -1,11 +1,11 @@
-# 01 groups demo
+# groups demo
 mkdir demo
 cd demo
 ls -l /sys/fs/cgroup/
 sudo mkdir /sys/fs/cgroup/memory/demo
 ls -l /sys/fs/cgroup/memory/demo/
 cat /sys/fs/cgroup/memory/demo/memory.limit_in_bytes
-#'sudo bash' on lecture, to automate i will run as separate script
+
 sudo bash
 echo 1k > /sys/fs/cgroup/memory/demo/memory.limit_in_bytes
 echo $$
@@ -75,4 +75,9 @@ sudo ip netns exec busybox_network ip route add default via 192.168.2.1 dev veth
 nano config.json 
 # "type": "network", "path": "/var/run/netns/busybox_network"
 
-sudo runc run demo &
+sudo runc run demo 
+
+# Delete/clear after all
+sudo rmdir /sys/fs/cgroup/memory/demo/
+sudo rm -rf demo # with rootfs
+sudo ip netns delete busybox_network
