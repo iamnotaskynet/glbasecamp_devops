@@ -57,21 +57,13 @@ sudo ip netns add busybox_network
 sudo ip netns ls
 
 sudo ip link add name veth-host type veth peer name veth-busybox
-
 sudo ip link set veth-busybox netns busybox_network
-
 sudo ip netns exec busybox_network ip addr add 192.168.2.1/24 dev veth-busybox
-
 sudo ip netns exec busybox_network ip link set veth-busybox up
-
 sudo ip netns exec busybox_network ip link set lo up
-
 sudo ip link set veth-host up
-
 sudo ip route add 192.168.2.1/32 dev veth-host
-
 sudo ip netns exec busybox_network ip route add default via 192.168.2.1 dev veth-busybox
-
 nano config.json 
 # "type": "network", "path": "/var/run/netns/busybox_network"
 
