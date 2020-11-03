@@ -1,7 +1,7 @@
 
 #### Usefull links
 
-- [k3s][https://k3s.io/]
+- [k3s](https://k3s.io/)
 - [traefik](https://traefik.io/)
 - [k3sup](https://github.com/alexellis/k3sup)
 - [kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
