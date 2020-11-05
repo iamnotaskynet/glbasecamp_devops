@@ -14,7 +14,7 @@
 - [elasticsearch-operator](https://github.com/upmc-enterprises/elasticsearch-operator)
 - [Monitor fun slides](https://conferences.xeraa.net/8h6lip)
 
-
+- [12-factor app](https://en.wikipedia.org/wiki/Twelve-Factor_App_methodology)
 
 
 #### Video
