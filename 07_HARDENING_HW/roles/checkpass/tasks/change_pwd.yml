@@ -1,0 +1,12 @@
+---
+- name: Change password
+  debug: 
+    msg: "CHANGING PASSWORD"
+
+- name: Doing changes
+  shell: echo -e "glbasecamp\nglbasecamp" | passwd {{ansible_user}}
+  register: bash_output
+
+- name: View registered variable
+  debug: 
+    msg: "Bash output: {{bash_output.stdout}} {{bash_output.stderr}}"

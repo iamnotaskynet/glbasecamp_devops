@@ -1,5 +1,11 @@
 #### Usefull links
 
+- [cgroups](https://en.wikipedia.org/wiki/Cgroups)
+- [namespaces](https://en.wikipedia.org/wiki/Linux_namespaces)
+- [device mapper](https://en.wikipedia.org/wiki/Device_mapper)
+
+
+
 - [GCP FREE CREDIT](https://cloud.google.com/free)
 - [kubernetes.io](https://kubernetes.io/docs/tasks)
 - [www.tutorialspoint.com](https://www.tutorialspoint.com/kubernetes)
