@@ -1,19 +1,22 @@
 ### Usefull links
 
+- [zoom](https://globallogic.zoom.us/rec/share/8d1ZMyJSNdGB47HABOQHrGQUBhkGNfGIIrQkvVfLufrOHosoTnmW_mDzIL1W8ZP7.MVh4oY0ri-eYwkoS)
+- [presentation](https://docs.google.com/document/d/1RtRfTPX2RwEXz3u3tYdLAPiU5uXqvtcARh_p_oILKDE)
+
 ##### Wikipedia
- [Social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security))
- [IDPS](https://en.wikipedia.org/wiki/Intrusion_detection_system)
- [DoS](https://en.wikipedia.org/wiki/Denial-of-service_attack)
- [RDP](https://en.wikipedia.org/wiki/Remote_Desktop_Protocol)
- [DVI](https://en.wikipedia.org/wiki/Desktop_virtualization)
- [XSS](https://en.wikipedia.org/wiki/Cross-site_scripting)
- [CSRF](https://en.wikipedia.org/wiki/Cross-site_request_forgery)
- [SQL injection](https://en.wikipedia.org/wiki/SQL_injection)
- [Phishing](https://en.wikipedia.org/wiki/Phishing)
- [Spamming](https://en.wikipedia.org/wiki/Spamming)
- [MITM](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
- [BGP](https://en.wikipedia.org/wiki/Border_Gateway_Protocol)
- [Supply chain attack](https://en.wikipedia.org/wiki/Supply_chain_attack)
+- [Social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security))
+- [IDPS](https://en.wikipedia.org/wiki/Intrusion_detection_system)
+- [DoS](https://en.wikipedia.org/wiki/Denial-of-service_attack)
+- [RDP](https://en.wikipedia.org/wiki/Remote_Desktop_Protocol)
+- [DVI](https://en.wikipedia.org/wiki/Desktop_virtualization)
+- [XSS](https://en.wikipedia.org/wiki/Cross-site_scripting)
+- [CSRF](https://en.wikipedia.org/wiki/Cross-site_request_forgery)
+- [SQL injection](https://en.wikipedia.org/wiki/SQL_injection)
+- [Phishing](https://en.wikipedia.org/wiki/Phishing)
+- [Spamming](https://en.wikipedia.org/wiki/Spamming)
+- [MITM](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
+- [BGP](https://en.wikipedia.org/wiki/Border_Gateway_Protocol)
+- [Supply chain attack](https://en.wikipedia.org/wiki/Supply_chain_attack)
 
 ##### Attacks
 - [Cloud Atlas (securelist)](https://securelist.com/recent-cloud-atlas-activity/92016/) (Power Shower, VB Shower)
@@ -60,7 +63,7 @@ PlugX, Poison Ivy, ChChes, RedLeaves, Quasar
 - [OSSIM](https://cybersecurity.att.com/products/ossim) [wiki](https://en.wikipedia.org/wiki/OSSIM)
 - [ArcSight HP](https://www.microfocus.com/en-us/products/security-operations/overview)
 
-##### Task
+##### Homework Task
 
 Do not use your username in password
 
@@ -73,7 +76,7 @@ Do not use your username in password
  1. Ansible
  2. Utilize PAM authentication module.
 
-##### Homework
+##### Homework Run
 
 `ansible-playbook playbook.yml --vault-password-file vault_pass`
 
