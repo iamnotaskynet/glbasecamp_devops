@@ -50,12 +50,10 @@
 - Open Flow 
 ~[site]()~ / 
 [wiki](https://en.wikipedia.org/wiki/OpenFlow) /
-[]() /
-[]() /
+
 - ONOS [site](https://opennetworking.org/onos/) / [wiki](https://en.wikipedia.org/wiki/ONOS)
 
 ##### 5. Virtual Network Vunction Manager (VNFM)
-
 
 ##### 6. NFV Orchestrator (NFVO)
 
