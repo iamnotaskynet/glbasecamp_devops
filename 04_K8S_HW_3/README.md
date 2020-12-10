@@ -21,7 +21,6 @@
 
 <!-- - [asciinema k8s session 3]() -->
 - [youtube k8s session 3](https://www.youtube.com/watch?v=_Bm2Zpe6GuU)
-- [zoom k8s session 3](https://globallogic.zoom.us/rec/share/5e6EG4monlf2LISawELi6iBDns62HoOEJ-AJ5yYmEpq2VnTUaWsby-Jd5MiYO_4N.7LkxaC-F1VC0eEqB)
 
 
 #### Task

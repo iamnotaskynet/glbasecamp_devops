@@ -1,6 +1,5 @@
 ### Usefull links
 
-- [zoom](https://globallogic.zoom.us/rec/share/8d1ZMyJSNdGB47HABOQHrGQUBhkGNfGIIrQkvVfLufrOHosoTnmW_mDzIL1W8ZP7.MVh4oY0ri-eYwkoS)
 - [presentation](https://docs.google.com/document/d/1RtRfTPX2RwEXz3u3tYdLAPiU5uXqvtcARh_p_oILKDE)
 
 ##### Wikipedia

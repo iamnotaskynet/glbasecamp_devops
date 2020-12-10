@@ -1,6 +1,5 @@
 ### Usefull links
 
-- [zoom](https://globallogic.zoom.us/rec/share/T3xw8LnIZBr5veKb2XRnFg0nW1f_xGgdwiQaRUEWjewRdhiI-WWHyxOrvJS9aB-X.Z0WCuE13RPNVGm4P)
 - [presentation](https://docs.google.com/presentation/d/1lZibgnzluSavrQJDDiIni51-zjraf1z-)
 
 ##### 1. [Telecom](https://en.wikipedia.org/wiki/Telecommunication) in General

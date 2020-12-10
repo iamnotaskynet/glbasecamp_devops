@@ -25,7 +25,6 @@
 
 - [asciinema k8s session 1](https://asciinema.org/a/347573)
 - [youtube k8s session 1](https://www.youtube.com/watch?v=BPLiDl9-9-k&list=PLrVqjouFIY3fQKswovdnlzDVq1bkFHcuB&index=2)
-- [zoom k8s session 1](https://globallogic.zoom.us/rec/share/b8DjhmeeXIFSPMz4hYFbZ1O3n6M-FDqTl2xLWVNFU4Q2DBTr8SHbCJ8UL7mdR2kJ.WGuqQyYSP-E3pt0Y)
 
 #### Task
 
