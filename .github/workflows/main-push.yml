@@ -1,9 +1,9 @@
-name: master-push
+name: main-push
 
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   hello_world:
