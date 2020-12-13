@@ -6,8 +6,15 @@ on:
       - main
 
 jobs:
-  hello_world:
+  testing:
     runs-on: ubuntu-latest
     steps:
-      - name: Hello world
+      - name: Testing Hello World
+        run: echo "Hello GitHub Actions!"
+
+  deploying:
+    runs-on: ubuntu-latest
+    needs: [testing]
+    steps:
+      - name: Deploying Hello world
         run: echo "Hello GitHub Actions!"
