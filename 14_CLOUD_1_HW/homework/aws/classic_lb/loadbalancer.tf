@@ -8,8 +8,8 @@ resource "aws_instance" "ubu1" {
     availability_zone       = "us-west-2a"
     instance_type           = "t2.micro"
     vpc_security_group_ids  = [ aws_security_group.sg1.id ]
-    user_data = file("ubu1nginx.bash")
-    tags = {    Name = "ubu1"   }
+    user_data               = file("../bash/ubu1nginx.bash")
+    tags                    = { Name = "ubu1" }
 }
 
 # INSTANCE 1 Security Group
@@ -37,14 +37,14 @@ resource "aws_instance" "ubu2" {
     availability_zone       = "us-west-2b"
     instance_type           = "t2.micro"
     vpc_security_group_ids  = [ aws_security_group.sg2.id ]
-    user_data               = file("ubu2nginx.bash")
+    user_data               = file("../bash/ubu2nginx.bash")
     tags                    = { Name = "ubu2" }
 }
 
 # INSTANCE 2 Security Group
 resource "aws_security_group" "sg2" {
     name = "SecGroup 2"
-
+    
     ingress {
       from_port   = 80
       to_port     = 80
