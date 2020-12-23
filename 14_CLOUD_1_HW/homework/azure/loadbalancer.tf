@@ -96,6 +96,12 @@ resource "azurerm_linux_virtual_machine" "ubu1" {
     sku       = "20.04-LTS"
     version   = "latest"
   }
+
+  os_profile {
+    admin_username = "adminuser"
+    computer_name  = "ubu1"
+    custom_data    = file("../ubu1nginx.bash")
+  }
 }
 # INSTANCE 2
 resource "azurerm_linux_virtual_machine" "ubu2" {
@@ -121,6 +127,12 @@ resource "azurerm_linux_virtual_machine" "ubu2" {
     offer     = "UbuntuServer"
     sku       = "20.04-LTS"
     version   = "latest"
+  }
+
+  os_profile {
+    admin_username = "adminuser"
+    computer_name  = "ubu2"
+    custom_data    = file("../ubu2nginx.bash")
   }
 }
 # PUBLIC IP (for loadbalancer)
