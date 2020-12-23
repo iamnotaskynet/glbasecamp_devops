@@ -3,3 +3,4 @@
 *.tfstate.*
 *.terraform.lock.hcl
 **/__pycache__/*
+*.log
