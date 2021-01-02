@@ -1,12 +1,16 @@
 # GLOBAL LOGIC DEVOPS BASECAMP NOTES
 
 GitHub Actions status:
-<img src="https://github.com/iamnotaskynet/glbasecamp_devops/workflows/main-push/badge.svg?branch=main">
+<img src="https://github.com/iamnotaskynet/glbasecamp_devops/workflows/gitbook-action/badge.svg?branch=main">
 
 
 
+[gh-pages genareted with actions gitbook](https://iamnotaskynet.github.io/glbasecamp_devops/)
 
-[01_ANSIBLE_HW](https://github.com/iamnotaskynet/glbasecamp_devops/tree/main/01_ANSIBLE_HW)
+[docs genarated with gitbook.io](https://iamnotaskynet.gitbook.io/glbasecamp-devops/)
+
+
+<!-- [01_ANSIBLE_HW](https://github.com/iamnotaskynet/glbasecamp_devops/tree/main/01_ANSIBLE_HW)
 
 [02_K8S_HW_1](https://github.com/iamnotaskynet/glbasecamp_devops/tree/main/02_K8S_HW_1)
 
@@ -22,4 +26,4 @@ GitHub Actions status:
 
 [08_NFV](https://github.com/iamnotaskynet/glbasecamp_devops/tree/main/08_NFV)
 
-[09_5G](https://github.com/iamnotaskynet/glbasecamp_devops/tree/main/09_5G)
+[09_5G](https://github.com/iamnotaskynet/glbasecamp_devops/tree/main/09_5G) -->
