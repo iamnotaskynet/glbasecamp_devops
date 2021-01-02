@@ -14,3 +14,4 @@ jobs:
       with:                                   #    or fork this repo and use YourName/gitbook-action@master
         token: ${{ secrets.GLBASECAMP_SECRET }}
         source_branch: main 
+        source_dir: doc
