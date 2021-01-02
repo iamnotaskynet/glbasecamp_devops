@@ -3,7 +3,7 @@
 - [presentation](https://docs.google.com/document/d/1RtRfTPX2RwEXz3u3tYdLAPiU5uXqvtcARh_p_oILKDE)
 
 ##### Wikipedia
-- [Social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security))
+- [Social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security) )
 - [IDPS](https://en.wikipedia.org/wiki/Intrusion_detection_system)
 - [DoS](https://en.wikipedia.org/wiki/Denial-of-service_attack)
 - [RDP](https://en.wikipedia.org/wiki/Remote_Desktop_Protocol)
