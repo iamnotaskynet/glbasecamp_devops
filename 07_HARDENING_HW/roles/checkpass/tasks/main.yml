@@ -1,7 +1,0 @@
----
-- name: Chek is pass containing a login
-  include: change_pwd.yml
-  static: no
-  when: ansible_sudo_pass.find(ansible_user) != -1
-
-# when: ansible_sudo_pass.find("glbasecamp") != -1

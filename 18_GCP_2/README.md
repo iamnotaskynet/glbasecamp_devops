@@ -1,1 +1,0 @@
-https://github.com/Pivopil/terraform-gcp

@@ -1,8 +1,0 @@
----
-- name: Check is password contain login
-  hosts: all
-  become: yes
-  roles:
-    - {role: checkpass, when: ansible_system == 'Linux'}
-
-

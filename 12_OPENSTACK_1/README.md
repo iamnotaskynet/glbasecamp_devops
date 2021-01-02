@@ -1,4 +1,0 @@
-
-### Usefull links
-
-TODO: notes

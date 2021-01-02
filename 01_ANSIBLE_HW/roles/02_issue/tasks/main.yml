@@ -1,8 +1,0 @@
----
-- name: define content of /etc/issue as variable
-  shell: cat /etc/issue
-  register: etc_issue
-
-- name: printing hostnames together with registered variables will be a plus.
-  debug: 
-    msg: "HOSTNAME: {{ ansible_hostname }} ISSUE: {{ etc_issue.stdout }}" 
