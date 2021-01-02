@@ -1,7 +1,7 @@
 # GLOBAL LOGIC DEVOPS BASECAMP NOTES
 
 GitHub Actions status:
-<img src="https://github.com/iamnotaskynet/glbasecamp_devops/workflows/gitbook-action/badge.svg?branch=gh-pages">
+<img src="https://github.com/iamnotaskynet/glbasecamp_devops/workflows/gitbook-action/badge.svg?branch=main">
 
 
 
