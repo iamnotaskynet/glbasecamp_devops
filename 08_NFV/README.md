@@ -8,7 +8,7 @@
 - [Radio Network Controller](https://en.wikipedia.org/wiki/Radio_Network_Controller)
 - [SDH Network](https://en.wikipedia.org/wiki/Synchronous_optical_networking)
 - [MPLS](https://en.wikipedia.org/wiki/Multiprotocol_Label_Switching)
-- [HLR](https://en.wikipedia.org/wiki/Network_switching_subsystem#Home_location_register_(HLR))
+- [HLR](https://en.wikipedia.org/wiki/Network_switching_subsystem#Home_location_register_\(HLR\))
 - [GPRS](https://en.wikipedia.org/wiki/General_Packet_Radio_Service)
 - [GPRS core network](https://en.wikipedia.org/wiki/GPRS_core_network)
 - [Network virtualization](https://en.wikipedia.org/wiki/Network_virtualization)
@@ -16,11 +16,11 @@
 
 ##### 2. [ETSI NFV](https://www.etsi.org/technologies/nfv)
 - OpenStack 
-[site](https://www.openstack.org/) /
-[wiki](https://en.wikipedia.org/wiki/OpenStack) /
+[site](https://www.openstack.org/),
+[wiki](https://en.wikipedia.org/wiki/OpenStack),
 [github](https://github.com/openstack)
 - Openstack/VMWare VIM
-- OpenSource Mano [site](https://osm.etsi.org/) / [github](https://github.com/nfvlabs/openmano)
+- OpenSource Mano [site](https://osm.etsi.org/),  [github](https://github.com/nfvlabs/openmano)
 
 ##### 3. Virtual Infrastructure Manager OpenStack
 
@@ -52,7 +52,7 @@
 
 - ONOS [site](https://opennetworking.org/onos/) / [wiki](https://en.wikipedia.org/wiki/ONOS)
 
-##### 5. Virtual Network Vunction Manager (VNFM)
+##### 5. Virtual Network Function Manager (VNFM)
 
 ##### 6. NFV Orchestrator (NFVO)
 

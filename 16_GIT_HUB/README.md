@@ -19,12 +19,7 @@
 - [kube & GitOps](https://githubuniverse.com/Kelsey-Kubernetes-and-GitOps/)
 
 ##### Homework
-1.
-
-https://www.atlassian.com/git/tutorials/cherry-pick
-
-
-2.
-```
-git help everyday
-```
+1. ```git cherry-pick $(commit-sha)```
+2. ```git help everyday```
+3. [gitbook](https://iamnotaskynet.gitbook.io/glbasecamp-devops/)
+4. [actions workflows](https://github.com/iamnotaskynet/glbasecamp_devops/blob/main/.github/workflows/main-push.yml)
