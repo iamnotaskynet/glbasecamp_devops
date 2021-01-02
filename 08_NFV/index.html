@@ -1,0 +1,561 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>08 NFV · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../09_5G/" />
+    
+    
+    <link rel="prev" href="../07_HARDENING_HW/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Use headings to create page groups like this one​</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../01_ANSIBLE_HW/">
+            
+                <a href="../01_ANSIBLE_HW/">
+            
+                    
+                    01 ANSIBLE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../02_K8S_HW_1/">
+            
+                <a href="../02_K8S_HW_1/">
+            
+                    
+                    02 K8S_HW_1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../03_K8S_HW_2/">
+            
+                <a href="../03_K8S_HW_2/">
+            
+                    
+                    03 K8S_HW_2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../04_K8S_HW_3/">
+            
+                <a href="../04_K8S_HW_3/">
+            
+                    
+                    04 K8S_HW_3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../05_K8S_HW_4/">
+            
+                <a href="../05_K8S_HW_4/">
+            
+                    
+                    05 K8S_HW_4
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../06_K8S_HW_5/">
+            
+                <a href="../06_K8S_HW_5/">
+            
+                    
+                    06 K8S_HW_5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../07_HARDENING_HW/">
+            
+                <a href="../07_HARDENING_HW/">
+            
+                    
+                    07 SYSTEM HARDENING
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.9" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    08 NFV
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../09_5G/">
+            
+                <a href="../09_5G/">
+            
+                    
+                    09 5G
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../10_BASH_HW/">
+            
+                <a href="../10_BASH_HW/">
+            
+                    
+                    10 BASH
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../11_PYTHON_HW/">
+            
+                <a href="../11_PYTHON_HW/">
+            
+                    
+                    11 PYTHON
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../12_OPENSTACK_1/">
+            
+                <a href="../12_OPENSTACK_1/">
+            
+                    
+                    12 OPENSTACK_1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../13_OPENSTACK_2/">
+            
+                <a href="../13_OPENSTACK_2/">
+            
+                    
+                    13 OPENSTACK_2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../14_CLOUD_1_HW/">
+            
+                <a href="../14_CLOUD_1_HW/">
+            
+                    
+                    14 CLOUD_1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../15_CLOUD_2/">
+            
+                <a href="../15_CLOUD_2/">
+            
+                    
+                    15 CLOUD_2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="../16_GIT_HUB/">
+            
+                <a href="../16_GIT_HUB/">
+            
+                    
+                    16 GIT/GITHUB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="../17_GCP_1/">
+            
+                <a href="../17_GCP_1/">
+            
+                    
+                    17 GCP_1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="../18_GCP_2/">
+            
+                <a href="../18_GCP_2/">
+            
+                    
+                    18 GCP_2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="../19_GCP_3/">
+            
+                <a href="../19_GCP_3/">
+            
+                    
+                    19 GCP_3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="../20_JENKINS/">
+            
+                <a href="../20_JENKINS/">
+            
+                    
+                    20 JENKINS
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">A second-page group​</li>
+        
+        
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >08 NFV</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="usefull-links">Usefull links</h3>
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1lZibgnzluSavrQJDDiIni51-zjraf1z-" target="_blank">presentation</a></li>
+</ul>
+<h5 id="1-telecom-in-general">1. <a href="https://en.wikipedia.org/wiki/Telecommunication" target="_blank">Telecom</a> in General</h5>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Telecommunications_network" target="_blank">Telecommunications network</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Base_station" target="_blank">Base Station</a> / <a href="https://en.wikipedia.org/wiki/Radio_Base_Station" target="_blank">Radio Base Station</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Radio_Network_Controller" target="_blank">Radio Network Controller</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Synchronous_optical_networking" target="_blank">SDH Network</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Multiprotocol_Label_Switching" target="_blank">MPLS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Network_switching_subsystem#Home_location_register_\(HLR\" target="_blank">HLR</a>)</li>
+<li><a href="https://en.wikipedia.org/wiki/General_Packet_Radio_Service" target="_blank">GPRS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GPRS_core_network" target="_blank">GPRS core network</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Network_virtualization" target="_blank">Network virtualization</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ETSI" target="_blank">The European Telecommunications Standards Institute</a></li>
+</ul>
+<h5 id="2-etsi-nfv">2. <a href="https://www.etsi.org/technologies/nfv" target="_blank">ETSI NFV</a></h5>
+<ul>
+<li>OpenStack 
+<a href="https://www.openstack.org/" target="_blank">site</a>,
+<a href="https://en.wikipedia.org/wiki/OpenStack" target="_blank">wiki</a>,
+<a href="https://github.com/openstack" target="_blank">github</a></li>
+<li>Openstack/VMWare VIM</li>
+<li>OpenSource Mano <a href="https://osm.etsi.org/" target="_blank">site</a>,  <a href="https://github.com/nfvlabs/openmano" target="_blank">github</a></li>
+</ul>
+<h5 id="3-virtual-infrastructure-manager-openstack">3. Virtual Infrastructure Manager OpenStack</h5>
+<h5 id="4-software-define-networks-sdn">4. Software Define Networks <a href="https://en.wikipedia.org/wiki/Software-defined_networking" target="_blank">(SDN)</a></h5>
+<ul>
+<li>OpenDayLight 
+<a href="https://www.opendaylight.org/" target="_blank">site</a> / 
+<a href="https://en.wikipedia.org/wiki/OpenDaylight_Project" target="_blank">wiki</a> / 
+<a href="https://github.com/opendaylight/controller" target="_blank">github</a> /
+<a href="https://docs.openstack.org/neutron/latest/" target="_blank">Neutron</a> / 
+<a href="https://en.wikipedia.org/wiki/YANG" target="_blank">YANG</a></li>
+<li>Open vSwitch 
+<a href="https://www.openvswitch.org/" target="_blank">site</a> / 
+<a href="https://en.wikipedia.org/wiki/Open_vSwitch" target="_blank">wiki</a> /
+<a href="https://en.wikipedia.org/wiki/IEEE_802.1Q" target="_blank">802.1Q</a> /
+<a href="https://en.wikipedia.org/wiki/IEEE_802.1D" target="_blank">802.1D</a> /
+<a href="https://en.wikipedia.org/wiki/Link_aggregation#Link_Aggregation_Control_Protocol" target="_blank">LACP</a> /
+<a href="https://en.wikipedia.org/wiki/Port_mirroring" target="_blank">Port mirroring</a> /
+<a href="https://en.wikipedia.org/wiki/NetFlow" target="_blank">NetFlow</a> /
+<a href="https://en.wikipedia.org/wiki/SFlow" target="_blank">SFlow</a> /
+<a href="https://en.wikipedia.org/wiki/IP_Flow_Information_Export" target="_blank">IPFIX</a> /
+<a href="https://en.wikipedia.org/wiki/Generic_Routing_Encapsulation" target="_blank">GRE</a> /
+<a href="https://en.wikipedia.org/wiki/Virtual_Extensible_LAN" target="_blank">VXLAN</a> /
+<a href="https://en.wikipedia.org/wiki/IPsec" target="_blank">IPSEC</a> /
+<a href="https://en.wikipedia.org/wiki/Quality_of_service" target="_blank">QoS</a> /</li>
+<li><p>Open Flow 
+~<a href="">site</a>~ / 
+<a href="https://en.wikipedia.org/wiki/OpenFlow" target="_blank">wiki</a> /</p>
+</li>
+<li><p>ONOS <a href="https://opennetworking.org/onos/" target="_blank">site</a> / <a href="https://en.wikipedia.org/wiki/ONOS" target="_blank">wiki</a></p>
+</li>
+</ul>
+<h5 id="5-virtual-network-function-manager-vnfm">5. Virtual Network Function Manager (VNFM)</h5>
+<h5 id="6-nfv-orchestrator-nfvo">6. NFV Orchestrator (NFVO)</h5>
+<h5 id="etc">ETC</h5>
+<ul>
+<li><a href="https://cloudify.co/" target="_blank">cloudify</a></li>
+<li><a href="https://docs.oasis-open.org/tosca/TOSCA-Simple-Profile-YAML/v1.3/TOSCA-Simple-Profile-YAML-v1.3.html" target="_blank">TOSCA</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../07_HARDENING_HW/" class="navigation navigation-prev " aria-label="Previous page: 07 SYSTEM HARDENING">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../09_5G/" class="navigation navigation-next " aria-label="Next page: 09 5G">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"08 NFV","level":"1.9","depth":1,"next":{"title":"09 5G","level":"1.10","depth":1,"path":"09_5G/README.md","ref":"./09_5G/README.md","articles":[]},"previous":{"title":"07 SYSTEM HARDENING","level":"1.8","depth":1,"path":"07_HARDENING_HW/README.md","ref":"./07_HARDENING_HW/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"08_NFV/README.md","mtime":"2021-01-02T22:25:57.381Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-01-02T22:26:24.504Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

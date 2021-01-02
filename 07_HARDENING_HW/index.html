@@ -1,0 +1,593 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>07 SYSTEM HARDENING · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../08_NFV/" />
+    
+    
+    <link rel="prev" href="../06_K8S_HW_5/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Use headings to create page groups like this one​</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../01_ANSIBLE_HW/">
+            
+                <a href="../01_ANSIBLE_HW/">
+            
+                    
+                    01 ANSIBLE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../02_K8S_HW_1/">
+            
+                <a href="../02_K8S_HW_1/">
+            
+                    
+                    02 K8S_HW_1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../03_K8S_HW_2/">
+            
+                <a href="../03_K8S_HW_2/">
+            
+                    
+                    03 K8S_HW_2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../04_K8S_HW_3/">
+            
+                <a href="../04_K8S_HW_3/">
+            
+                    
+                    04 K8S_HW_3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../05_K8S_HW_4/">
+            
+                <a href="../05_K8S_HW_4/">
+            
+                    
+                    05 K8S_HW_4
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../06_K8S_HW_5/">
+            
+                <a href="../06_K8S_HW_5/">
+            
+                    
+                    06 K8S_HW_5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.8" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    07 SYSTEM HARDENING
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../08_NFV/">
+            
+                <a href="../08_NFV/">
+            
+                    
+                    08 NFV
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../09_5G/">
+            
+                <a href="../09_5G/">
+            
+                    
+                    09 5G
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../10_BASH_HW/">
+            
+                <a href="../10_BASH_HW/">
+            
+                    
+                    10 BASH
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../11_PYTHON_HW/">
+            
+                <a href="../11_PYTHON_HW/">
+            
+                    
+                    11 PYTHON
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../12_OPENSTACK_1/">
+            
+                <a href="../12_OPENSTACK_1/">
+            
+                    
+                    12 OPENSTACK_1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../13_OPENSTACK_2/">
+            
+                <a href="../13_OPENSTACK_2/">
+            
+                    
+                    13 OPENSTACK_2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../14_CLOUD_1_HW/">
+            
+                <a href="../14_CLOUD_1_HW/">
+            
+                    
+                    14 CLOUD_1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../15_CLOUD_2/">
+            
+                <a href="../15_CLOUD_2/">
+            
+                    
+                    15 CLOUD_2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="../16_GIT_HUB/">
+            
+                <a href="../16_GIT_HUB/">
+            
+                    
+                    16 GIT/GITHUB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="../17_GCP_1/">
+            
+                <a href="../17_GCP_1/">
+            
+                    
+                    17 GCP_1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="../18_GCP_2/">
+            
+                <a href="../18_GCP_2/">
+            
+                    
+                    18 GCP_2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="../19_GCP_3/">
+            
+                <a href="../19_GCP_3/">
+            
+                    
+                    19 GCP_3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="../20_JENKINS/">
+            
+                <a href="../20_JENKINS/">
+            
+                    
+                    20 JENKINS
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">A second-page group​</li>
+        
+        
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >07 SYSTEM HARDENING</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="usefull-links">Usefull links</h3>
+<ul>
+<li><a href="https://docs.google.com/document/d/1RtRfTPX2RwEXz3u3tYdLAPiU5uXqvtcARh_p_oILKDE" target="_blank">presentation</a></li>
+</ul>
+<h5 id="wikipedia">Wikipedia</h5>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Social_engineering_\(security\" target="_blank">Social engineering</a> )</li>
+<li><a href="https://en.wikipedia.org/wiki/Intrusion_detection_system" target="_blank">IDPS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Denial-of-service_attack" target="_blank">DoS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Remote_Desktop_Protocol" target="_blank">RDP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Desktop_virtualization" target="_blank">DVI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cross-site_scripting" target="_blank">XSS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cross-site_request_forgery" target="_blank">CSRF</a></li>
+<li><a href="https://en.wikipedia.org/wiki/SQL_injection" target="_blank">SQL injection</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Phishing" target="_blank">Phishing</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Spamming" target="_blank">Spamming</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack" target="_blank">MITM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Border_Gateway_Protocol" target="_blank">BGP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Supply_chain_attack" target="_blank">Supply chain attack</a></li>
+</ul>
+<h5 id="attacks">Attacks</h5>
+<ul>
+<li><a href="https://securelist.com/recent-cloud-atlas-activity/92016/" target="_blank">Cloud Atlas (securelist)</a> (Power Shower, VB Shower)</li>
+<li><a href="https://www.trendmicro.com/vinfo/pl/security/news/cyber-attacks/operation-cloud-hopper-what-you-need-to-know" target="_blank">Cloud Hopper (trendmicro)</a></li>
+</ul>
+<h5 id="tools">Tools</h5>
+<ul>
+<li><a href="https://github.com/gentilkiwi/mimikatz" target="_blank">mimikatz</a></li>
+<li><a href="https://github.com/AlessandroZ/LaZagne" target="_blank">LaZagne</a></li>
+</ul>
+<h5 id="backdoors">Backdoors</h5>
+<p>PlugX, Poison Ivy, ChChes, RedLeaves, Quasar</p>
+<h5 id="defense">Defense</h5>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Transport_Layer_Security" target="_blank">TLS encrypt</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Certificate_authority" target="_blank">Certificates 1</a>, <a href="https://en.wikipedia.org/wiki/Public_key_certificate" target="_blank">2</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mandatory_access_control" target="_blank">MAC</a>, <a href="https://en.wikipedia.org/wiki/Role-based_access_control" target="_blank">RBAC</a>, <a href="https://en.wikipedia.org/wiki/Access-control_list" target="_blank">ACL</a></li>
+<li>logging monitoring auditing </li>
+<li>secret menager</li>
+<li><a href="https://en.wikipedia.org/wiki/Disk_encryption" target="_blank">volume encryption</a></li>
+<li>Filtering, Quotas, Geo distribution</li>
+<li>Host agregates and availability zones</li>
+</ul>
+<h5 id="cloud-architecture">Cloud architecture</h5>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/DDoS_mitigation" target="_blank">DDOS protection</a></li>
+<li><p><a href="https://en.wikipedia.org/wiki/Firewall_\(computing\" target="_blank">Firewall</a>)</p>
+</li>
+<li><p><a href="https://en.wikipedia.org/wiki/DMZ_\(computing\" target="_blank">DMZ</a>)</p>
+</li>
+<li><a href="https://en.wikipedia.org/wiki/Web_application_firewall" target="_blank">WAF</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Load_balancing_\(computing\" target="_blank">Load balance</a>)</li>
+<li><p><a href="https://en.wikipedia.org/wiki/Reverse_proxy" target="_blank">Reverse proxy</a></p>
+</li>
+<li><p><a href="https://en.wikipedia.org/wiki/Data_plane" target="_blank">Data plane</a></p>
+</li>
+<li><a href="https://en.wikipedia.org/wiki/Control_plane" target="_blank">Control plane</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Security_domain" target="_blank">Security domain</a></li>
+</ul>
+<h5 id="siem--soc"><a href="https://en.wikipedia.org/wiki/Security_information_and_event_management" target="_blank">SIEM</a> + <a href="https://en.wikipedia.org/wiki/Security_operations_center" target="_blank">SOC</a></h5>
+<ul>
+<li><a href="https://chronicle.security/" target="_blank">Chronicle</a></li>
+<li><a href="https://logrhythm.com/" target="_blank">LogRithm</a></li>
+<li><a href="https://www.ibm.com/security/security-intelligence/qradar" target="_blank">Q-Radar IBM</a></li>
+<li><a href="https://www.splunk.com/" target="_blank">Splunk</a></li>
+<li><a href="https://cybersecurity.att.com/products/ossim" target="_blank">OSSIM</a> <a href="https://en.wikipedia.org/wiki/OSSIM" target="_blank">wiki</a></li>
+<li><a href="https://www.microfocus.com/en-us/products/security-operations/overview" target="_blank">ArcSight HP</a></li>
+</ul>
+<h5 id="homework-task">Homework Task</h5>
+<p>Do not use your username in password</p>
+<ul>
+<li>Task:<ol>
+<li>Create and run a script (Ansible playbook) to harden users passwords by rejecting the one that contain a username. Enforce this rule for &apos;root&apos; as well.</li>
+<li>[Optional] Try to implement the same hardening rule without PAM.</li>
+<li>Write a report in Google Doc providing the playbook&apos;s code and proof of workability (screenshot or asciinema recording).</li>
+</ol>
+</li>
+<li>Target platform: any Linux-based distribution</li>
+<li>Tools:<ol>
+<li>Ansible</li>
+<li>Utilize PAM authentication module.</li>
+</ol>
+</li>
+</ul>
+<h5 id="homework-run">Homework Run</h5>
+<p><code>ansible-playbook playbook.yml --vault-password-file vault_pass</code></p>
+<h5 id="see-also">See also</h5>
+<ul>
+<li><a href="https://www.redhat.com/en/services/training/do007-ansible-essentials-simplicity-automation-technical-overview" target="_blank">Free RedHat ansible training</a></li>
+<li><a href="https://www.cisecurity.org/cis-benchmarks/" target="_blank">CIS Benchmarks</a></li>
+<li><a href="https://public.cyber.mil/stigs/" target="_blank">DISA Stigs</a></li>
+<li><a href="https://docs.ansible.com/ansible/latest/collections/community/general/pamd_module.html" target="_blank">PAM ansible</a></li>
+<li><a href="https://documentation.suse.com/sles/12-SP4/html/SLES-all/book-hardening.html" target="_blank">SUSE</a></li>
+<li><a href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/security_guide/chap-hardening_your_system_with_tools_and_services" target="_blank">RedHat</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../06_K8S_HW_5/" class="navigation navigation-prev " aria-label="Previous page: 06 K8S_HW_5">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../08_NFV/" class="navigation navigation-next " aria-label="Next page: 08 NFV">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"07 SYSTEM HARDENING","level":"1.8","depth":1,"next":{"title":"08 NFV","level":"1.9","depth":1,"path":"08_NFV/README.md","ref":"./08_NFV/README.md","articles":[]},"previous":{"title":"06 K8S_HW_5","level":"1.7","depth":1,"path":"06_K8S_HW_5/README.md","ref":"./06_K8S_HW_5/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"07_HARDENING_HW/README.md","mtime":"2021-01-02T22:25:57.381Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-01-02T22:26:24.504Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
