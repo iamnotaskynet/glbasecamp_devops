@@ -2,9 +2,9 @@
 
 ## Use headings to create page groups like this one​
 
-* [01 ANSIBLE](../01_ANSIBLE_HW/README.md)
-* [02 K8S_HW_1](../02_K8S_HW_1/README.md)    
-* [03 K8S_HW_2](../03_K8S_HW_2/README.md)
+* [01 ANSIBLE](./01_ANSIBLE_HW/README.md)
+* [02 K8S_HW_1](./02_K8S_HW_1/README.md)    
+* [03 K8S_HW_2](./03_K8S_HW_2/README.md)
 * [04 K8S_HW_3](../04_K8S_HW_3/README.md)
 * [05 K8S_HW_4](../05_K8S_HW_4/README.md)
 * [06 K8S_HW_5](../06_K8S_HW_5/README.md)
