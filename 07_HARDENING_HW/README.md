@@ -3,7 +3,7 @@
 - [presentation](https://docs.google.com/document/d/1RtRfTPX2RwEXz3u3tYdLAPiU5uXqvtcARh_p_oILKDE)
 
 ##### Wikipedia
-- [Social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security) )
+- [Social engineering](https://en.wikipedia.org/wiki/Social_engineering_\(security\) )
 - [IDPS](https://en.wikipedia.org/wiki/Intrusion_detection_system)
 - [DoS](https://en.wikipedia.org/wiki/Denial-of-service_attack)
 - [RDP](https://en.wikipedia.org/wiki/Remote_Desktop_Protocol)
@@ -42,11 +42,11 @@ PlugX, Poison Ivy, ChChes, RedLeaves, Quasar
 ##### Cloud architecture
 
 - [DDOS protection](https://en.wikipedia.org/wiki/DDoS_mitigation)
-- [Firewall](https://en.wikipedia.org/wiki/Firewall_(computing))
+- [Firewall](https://en.wikipedia.org/wiki/Firewall_\(computing\))
 
-- [DMZ](https://en.wikipedia.org/wiki/DMZ_(computing))
+- [DMZ](https://en.wikipedia.org/wiki/DMZ_\(computing\))
 - [WAF](https://en.wikipedia.org/wiki/Web_application_firewall)
-- [Load balance](https://en.wikipedia.org/wiki/Load_balancing_(computing))
+- [Load balance](https://en.wikipedia.org/wiki/Load_balancing_\(computing\))
 - [Reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy)
 
 - [Data plane](https://en.wikipedia.org/wiki/Data_plane)
