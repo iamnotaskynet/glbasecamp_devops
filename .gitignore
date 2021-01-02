@@ -1,0 +1,7 @@
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.terraform.lock.hcl
+**/__pycache__/*
+*.log
+node_modules/*

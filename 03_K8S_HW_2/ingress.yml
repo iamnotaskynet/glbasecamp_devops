@@ -1,0 +1,14 @@
+kind: Ingress
+apiVersion: networking.k8s.io/v1beta1
+metadata:
+  name: ingress
+  namespace: glbasecamp
+spec:
+  rules:
+    - host:
+      http:
+        paths:
+        - path: /
+          backend:
+            serviceName: glbasecamp
+            servicePort: 8080

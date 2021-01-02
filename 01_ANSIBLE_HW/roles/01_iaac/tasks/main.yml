@@ -1,0 +1,10 @@
+---
+- name: creating a empty file /etc/iaac
+  file: 
+    path: "/etc/iaac"
+    state: touch
+
+- name: with rigths 0500
+  file: 
+    path: "/etc/iaac"
+    mode: 0500
