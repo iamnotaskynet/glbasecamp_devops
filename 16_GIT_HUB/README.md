@@ -22,4 +22,4 @@
 1. ```git cherry-pick $(commit-sha)```
 2. ```git help everyday```
 3. [gitbook](https://iamnotaskynet.gitbook.io/glbasecamp-devops/)
-4. [actions workflows](https://github.com/iamnotaskynet/glbasecamp_devops/blob/main/.github/workflows/main-push.yml)
+4. [actions workflows](https://github.com/iamnotaskynet/glbasecamp_devops/blob/main/.github/workflows/gitbook-action.yml)
